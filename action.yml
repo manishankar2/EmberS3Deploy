@@ -1,0 +1,8 @@
+name: Ember S3 Deploy
+description: 'Push Ember js build to S3 bucket'
+
+author: 'Manishankar'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
