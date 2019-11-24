@@ -25,7 +25,7 @@ This helps to automate your frontend deployment process.
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: manishankar2/EmberS3Deploy@1.28
+    - uses: manishankar2/EmberS3Deploy@1.0.0
       env:
         AWS_ACCESS_KEY_ID: ${{secrets.ACCESS_KEY_ID}}
         AWS_SECRET_ACCESS_KEY: ${{secrets.ACCESS_SECRET}}
