@@ -19,7 +19,7 @@ if [ -z "$BUILD_ENV" ]; then
   exit 1
 fi
 
-if [ "$INSTALL_SSH" = "true" ]
+if [ "$REQUIRE_SSH" = "true" ]
 then
   mkdir -p /root/.ssh && \
       chmod 0700 /root/.ssh && \
