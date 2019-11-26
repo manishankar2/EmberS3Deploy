@@ -41,4 +41,4 @@ This helps to automate your frontend deployment process.
  
  Similarly if the app required some sort of addons which requires ssh_access set the variable **REQUIRE_SSH** to true. Also configure your SSH private key in the secrets and mention the key in the **SSH_PRIVATE_KEY** environmental variable.
  
- S3 Bucket will be created in the name of your brancg by default which can be overriden by using the **PREFIX** enviroment variable.
+ S3 Bucket will be created in the name of your branch by default which can be overriden by using the **PREFIX** enviroment variable.
